@@ -15,6 +15,10 @@ body > header {
 	background-repeat: no-repeat;
 }
 
+body > main {
+	background-color: #f5f8ff;
+}
+
 .max-width {
 	max-width: 1240px;
 	margin: 0 auto;
@@ -31,7 +35,7 @@ body > header {
 .btn {
 	background-color: #4e47ff;
 	color: white;
-	border-radius: 4px;
+	border-radius: 6px;
 	padding: 8px 16px;
 	font-weight: 700;
 	border-color: #4e47ff;
@@ -65,4 +69,24 @@ body > header {
 .header-banner h1 {
 	font-size: 36px;
 	margin-bottom: 16px;
+}
+
+/* ------------------------------------------------------- action */
+.action-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 96px 0;
+}
+
+.action-content h3 {
+	font-size: 32px;
+}
+.action-content p {
+	color: #0000007c;
+	margin: 16px 0;
+}
+
+.action-img img {
+	border-radius: 32px;
 }
