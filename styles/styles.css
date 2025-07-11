@@ -63,7 +63,8 @@ body > main {
 
 .header-banner {
 	text-align: center;
-	padding: 24px 0;
+	padding: 96px 0;
+	padding-top: 48px;
 }
 
 .header-banner h1 {
@@ -77,6 +78,7 @@ body > main {
 	justify-content: space-between;
 	align-items: center;
 	padding: 96px 0;
+	padding-top: 48px;
 }
 
 .action-content h3 {
