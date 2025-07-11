@@ -88,5 +88,29 @@ body > main {
 }
 
 .action-img img {
-	border-radius: 32px;
+	border-radius: 36px;
+}
+
+/* -------------------------------------------------------- productive */
+.productive-section {
+	background-color: #e4e6ff;
+	text-align: center;
+	padding: 48px 0;
+	border-radius: 16px;
+}
+.productive-section h3 {
+	font-size: 24px;
+	margin-bottom: 24px;
+}
+.productive-content {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+.productive-content h4 {
+	font-size: 64px;
+	color: #4e47ff;
+}
+.productive-content p {
+	color: #0000008c;
 }
